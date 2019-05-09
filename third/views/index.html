@@ -1,0 +1,49 @@
+<div class="main_body" id="main_body">
+    <div class="breadcrub">
+        当前位置：文章管理>文章列表
+    </div>
+    <div class="pannel">
+        <span class="sel_label">请选择文章分类：</span>
+        <form method="get" action="/zzz/index" id="form">
+            <select name="select" id="select" class="sel_opt">
+                <option selected="true">全部</option>
+                {{range .txttypes}}
+                    <option {{if compare .Typename  $.Typename}}selected="true"{{end}}>{{.Typename}}</option>
+                {{end}}
+            </select>
+        </form>
+        <table class="common_table">
+            <tr>
+                <th width="43%">文章标题</th>
+                <th width="10%">文章内容</th>
+                <th width="16%">添加时间</th>
+                <th width="7%">阅读量</th>
+                <th width="7%">删除</th>
+                <th width="7%">编辑</th>
+                <th width="10%">文章类型</th>
+            </tr>
+
+            {{range .txts}}
+                <tr>
+                    <td>{{.Title}}</td>
+                    <td><a href="/zzz/content?Id={{.Id}}">查看详情</a></td>
+                    <td>{{.Time.Format "2006-01-02 15:04:05"}}</td>
+                    <td>{{.Readcount}}</td>
+                    <td><a href="/zzz/delete?Id={{.Id}}" class="dels">删除</a></td>
+                    <td><a href="/zzz/update?Id={{.Id}}">编辑</a></td>
+                    <td>{{.Txttype.Typename}}</td>
+                </tr>
+            {{end}}
+        </table>
+
+        <ul class="pagenation">
+            <!--a标签 超链接标签  会发送请求   多个参数时 用 & 隔开-->
+            <li><a href="/zzz/index?pagenum=1&select={{.Typename}}">首页</a></li>
+            <li><a href="/zzz/index?pagenum={{Prepage .pagenum}}&select={{.Typename}}">上一页 </a></li>
+            <li><a href="/zzz/index?pagenum={{Nextpage .pagenum .pagecount}}&select={{.Typename}}">下一页</a></li>
+            <li><a href="/zzz/index?pagenum={{.pagecount}}&select={{.Typename}}">末页</a></li>
+            <li>共{{.count}}条记录/共{{.pagecount}}页/当前{{.pagenum}}页</li>
+        </ul>
+    </div>
+</div>
+

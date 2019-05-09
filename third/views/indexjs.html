@@ -1,0 +1,14 @@
+<script>
+    $(function () {
+        $(".dels").click(function () {
+            if (!confirm("是否删除？")) {
+                return false
+            }
+        })
+
+        $("#select").change(function () {
+            $("#form").submit()
+        })
+    })
+
+</script>
