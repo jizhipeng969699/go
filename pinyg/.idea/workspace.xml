@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92c0eab7-05af-4c17-bd01-edc404738738" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../pyg/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pyg/views/serch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/gools.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/gools.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/controllers/goos.go" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/controllers/goos.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/controllers/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/controllers/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/models/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/models/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/css/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/css/pages-JD-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/css/pages-JD-index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/css/pages-login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/css/pages-login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/b1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/b1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/b2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/b2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/b3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/b3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/bg-who1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/bg-who1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/buy001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/buy001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/buy002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/buy002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/buy01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/buy01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/car.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/car.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/clock.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/clock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/code.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/cooperation_banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/cooperation_banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/down-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/down-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/dp01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/dp01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/dp02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/dp02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/dp03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/dp03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/dp04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/dp04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/empty_heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/empty_heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/erweima.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/erweima.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/fail.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/fail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/gocart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/gocart.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/gocart01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/gocart01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/goods1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/goods1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/gotop.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/gotop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/icon-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/icon-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/intro01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/intro01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/intro02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/intro02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/intro03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/intro03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/itemlike01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/itemlike01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/itemlike02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/itemlike02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/itemlike03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/itemlike03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/itemlike04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/itemlike04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/itemlike05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/itemlike05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/itemlike06.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/itemlike06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/l-m01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/l-m01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/list.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/list.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/list.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/login-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/login-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/manage-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/manage-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/mobile01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/mobile01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/mobile02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/mobile02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/mobile03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/mobile03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/mobile04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/mobile04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/mobile05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/mobile05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/mobile06.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/mobile06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/part01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/part01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/part02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/part02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/part03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/part03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/pay5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/pay5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone06.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone07.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone08.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone09.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone10.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone11.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone12.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone13.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/phone14.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/phone14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/photo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/photo_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/s1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/s1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/s2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/s2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/s3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/s3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/sampling_head.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/sampling_head.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/seckillbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/seckillbg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/shi_heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/shi_heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/shop-intro.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/shop-intro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/shop-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/shop-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/shop-part.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/shop-part.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/star.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/t.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/t.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/title_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/title_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/_/y24.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/_/y24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/account.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/ad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/ad.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/ad1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/ad1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/adv01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/adv01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/adv02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/adv02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/ali.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/ali.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/banner01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/banner01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/banner02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/banner02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/banner03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/banner03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/banner04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/banner04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/banner05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/banner05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/banner06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/banner06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/banner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/banner1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/banner1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/banner2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/banner3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/banner4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/banner4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/barrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/barrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/bg0.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/bg0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/bg2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/bg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/bg3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand06.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand07.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand08.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand09.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand10.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand11.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand12.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand13.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand_07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand_09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand_13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand_15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand_17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand_19.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand_19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/brand_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/brand_21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/cartPanelViewIcons.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/cartPanelViewIcons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/choosed.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/choosed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/clock.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/clock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/duihuan.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/duihuan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/erweima.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/erweima.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/floor-1-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/floor-1-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/floor-1-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/floor-1-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/floor-1-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/floor-1-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/floor-1-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/floor-1-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/floor-1-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/floor-1-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/floor-1-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/floor-1-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/floor-1-b01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/floor-1-b01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/floor-1-b02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/floor-1-b02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/floor-1-b03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/floor-1-b03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/fruit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/fruit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods006.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods010.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods011.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods013.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods014.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods014.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods015.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods015.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods016.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods016.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods017.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods019.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods019.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods020.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods020.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods/goods021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods/goods021.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/goods_detail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/goods_detail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/icons02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/icons02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/icons03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/icons03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/interest01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/interest01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/interest02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/interest02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/interest03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/interest03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/interest04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/interest04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/interest05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/interest05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/interest06.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/interest06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/interval_line.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/interval_line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/left_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/left_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/like1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/like1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/like2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/like2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/like3.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/like3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/like4.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/like4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/like_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/like_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/like_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/like_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/like_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/like_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/like_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/like_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/like_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/like_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/like_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/like_06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/linker.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/linker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/lock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/login_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/login_banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/loginbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/loginbg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/logo02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/logo02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/mod-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/mod-list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/pay_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/pay_icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/qq.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/qq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/quan.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/quan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/register_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/register_banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/shop_cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/shop_cart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/sina.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/sina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/slide.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/slide.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/slide02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/slide02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/slide03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/slide03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/slide04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/slide04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/today01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/today01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/today02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/today02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/today03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/today03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/today04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/today04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/weixin.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/weixin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/wx_cz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/wx_cz.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/images/zoom.png" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/tupian/zoom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/static/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/static/js/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/index_sx.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/index_sx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/place_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/place_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/register-email.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/register-email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/user_center_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/user_center_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/user_center_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/user_center_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/user_center_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/user_center_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyg/views/user_center_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pyg/views/user_center_site.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routers/router.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="38" column="81" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/gools.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="187" column="30" lean-forward="true" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="30" />
+              <folding>
+                <element signature="n#!!block;n#Showindex#0" />
+                <element signature="n#!!block;n#ShowIndex_sx#0" />
+                <element signature="n#!!block;n#Showgoodsdetail#0" />
+                <element signature="n#!!block;n#Info#0" />
+                <element signature="n#!!block;n#ShowCenterinfo#0" />
+                <element signature="n#!!block;n#ShowCenterorder#0" />
+                <element signature="n#!!block;n#ShowCentersite#0" />
+                <element signature="n#!!block;n#CenterSite#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index_sx.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="65" column="55" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/models.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="117" column="45" selection-start-line="117" selection-start-column="45" selection-end-line="117" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/views/register-email.html" />
+        <option value="$PROJECT_DIR$/views/register.html" />
+        <option value="$PROJECT_DIR$/views/login.html" />
+        <option value="$PROJECT_DIR$/conf/app.conf" />
+        <option value="$PROJECT_DIR$/controllers/user.go" />
+        <option value="$PROJECT_DIR$/views/lauout.html" />
+        <option value="$PROJECT_DIR$/views/user_center_order.html" />
+        <option value="$PROJECT_DIR$/views/layout.html" />
+        <option value="$PROJECT_DIR$/views/user_center_site.html" />
+        <option value="$PROJECT_DIR$/views/user_center_info.html" />
+        <option value="$PROJECT_DIR$/views/index.html" />
+        <option value="$PROJECT_DIR$/models/models.go" />
+        <option value="$PROJECT_DIR$/views/detail.html" />
+        <option value="$PROJECT_DIR$/views/index_sx.html" />
+        <option value="$PROJECT_DIR$/routers/router.go" />
+        <option value="$PROJECT_DIR$/views/list.html" />
+        <option value="$PROJECT_DIR$/controllers/gools.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="113" />
+    <option name="y" value="27" />
+    <option name="width" value="1264" />
+    <option name="height" value="742" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pinyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyg" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyg" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyg" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyg" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyg" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="25" width="1871" height="865" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20515634" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292517" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287483" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7931973" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/default_test.go" />
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/math/rand/rand.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="294" column="32" selection-start-line="294" selection-start-column="32" selection-end-line="294" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1042">
+          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/strings/strings.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="583" column="5" selection-start-line="583" selection-start-column="5" selection-end-line="583" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/utils/mail.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/regexp/regexp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="783" column="18" selection-start-line="783" selection-start-column="18" selection-end-line="783" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/register-email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="97" column="87" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/context/input.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="348" column="25" selection-start-line="348" selection-start-column="25" selection-end-line="348" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/controller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="619" column="57" lean-forward="true" selection-start-line="619" selection-start-column="57" selection-end-line="619" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="852" selection-start-line="852" selection-end-line="852" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user_center_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/addType.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/orm/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user_center_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/user_center_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/strconv/itoa.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/user.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="352" selection-start-line="352" selection-end-line="352" />
+          <folding>
+            <element signature="n#!!block;n#Showregister#0" />
+            <element signature="n#!!block;n#Sendmsg#0" />
+            <element signature="n#!!block;n#Register#0" />
+            <element signature="n#!!block;n#Showremail#0" />
+            <element signature="n#!!block;n#Email#0" />
+            <element signature="n#!!block;n#Active#0" />
+            <element signature="n#!!block;n#Showlogin#0" />
+            <element signature="n#!!block;n#Login#0" />
+            <element signature="n#!!block;n#Logout#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="38" column="81" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2603">
+          <caret line="130" column="60" selection-start-line="130" selection-start-column="60" selection-end-line="130" selection-end-column="74" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/models.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index_sx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="65" column="55" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="117" column="45" selection-start-line="117" selection-start-column="45" selection-end-line="117" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/gools.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="187" column="30" lean-forward="true" selection-start-line="187" selection-start-column="30" selection-end-line="187" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!block;n#Showindex#0" />
+            <element signature="n#!!block;n#ShowIndex_sx#0" />
+            <element signature="n#!!block;n#Showgoodsdetail#0" />
+            <element signature="n#!!block;n#Info#0" />
+            <element signature="n#!!block;n#ShowCenterinfo#0" />
+            <element signature="n#!!block;n#ShowCenterorder#0" />
+            <element signature="n#!!block;n#ShowCentersite#0" />
+            <element signature="n#!!block;n#CenterSite#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
