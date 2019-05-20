@@ -1,0 +1,37 @@
+<div class="right_content clearfix">
+    <h3 class="common_title2">全部订单</h3>
+    {{range .orderinfos}}
+        <ul class="order_list_th w978 clearfix">
+            <li class="col01">{{.OrderInfo.Time.Format "2006-01-02 15:04:05"}}</li>
+            <li class="col02">订单号：{{.OrderInfo.OrderId}}</li>
+            <li class="col02 stress">{{if compare .OrderInfo.Orderstatus 0}}未支付{{else}}已支付{{end}}</li>
+        </ul>
+
+        <table class="order_list_table w980">
+            <tbody>
+            <tr>
+                <td width="55%">
+                    {{range .OrderGoods}}
+                        <ul class="order_goods_list clearfix">
+                            <li class="col01"><img src="http://192.168.11.135:8888/{{.GoodsSKU.Image}}"></li>
+                            <li class="col02">{{.GoodsSKU.Name}}<em>{{.GoodsSKU.Price}}元/{{.GoodsSKU.Unite}}</em></li>
+                            <li class="col03">{{.Count}}</li>
+                            <li class="col04">{{.Price}}元</li>
+                        </ul>
+                    {{end}}
+                </td>
+                <td width="15%">{{.OrderInfo.TotalPrice}}元</td>
+                <td width="15%">{{if compare .OrderInfo.Orderstatus 0}}待付款{{else}}查看物流{{end}}</td>
+                <td width="15%">{{if compare .OrderInfo.Orderstatus 0}}<a href="/pay?orderId={{.OrderInfo.Id}}" class="oper_btn">去付款</a>{{else}}{{end}}</td>
+            </tr>
+            </tbody>
+        </table>
+    {{end}}
+    <div class="pagenation">
+        <a href="/user/order?pageindex={{.prepage}}"><上一页</a>
+        {{range $key,$value:=.pages}}
+        <a href="/user/order?pageindex={{$value}}" {{if compare $.pageindex $value}}class="active" {{end}}>{{$value}}</a>
+        {{end}}
+        <a href="/user/order?pageindex={{.nextpage}}">下一页></a>
+    </div>
+</div>
