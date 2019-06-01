@@ -22,5 +22,3 @@ type IServer interface {
 	CallOnConnStart(conn IConnection)
 	CallOnConnStop(conn IConnection)
 }
-
-

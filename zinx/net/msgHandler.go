@@ -50,7 +50,7 @@ func (mh *MsgHandler) DoMsgHandler(request ziface.IRequest) {
 	// 1 从Request 取到MsgiD
 	router, ok := mh.Apis[request.GetMsg().GetMsgId()]
 	if !ok {
-		fmt.Println("api MsgID = ", request.GetMsg().GetMsgId(), " Not Found! Need Add！")
+		fmt.Println("api MsgID ======= ", request.GetMsg().GetMsgId(), " Not Found! Need Add！")
 		return
 	}
 	//2 根据msgID  找到对应的router 进行调用
