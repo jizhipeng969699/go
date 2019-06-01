@@ -1,0 +1,9 @@
+{
+  "Host": "0.0.0.0",
+  "Port": 8999,
+  "Name": "mmo game server",
+  "MaxPackageSize": 4096,
+  "WorkerPoolSize":10,
+  "MaxWorkerTaskLen":4096,
+  "MaxConn":1000
+}
